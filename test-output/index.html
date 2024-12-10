@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Rest_assured_api_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Rest assured api Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Rest_assured_api_Suite" class="navigator-link ">
+                    <span>C:\Users\Invcuser_106\Desktop\Maven Projects\restassured-api-automation-framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Rest_assured_api_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Rest_assured_api_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Rest_assured_api_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Rest_assured_api_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Rest_assured_api_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Rest_assured_api_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 4 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Rest_assured_api_Suite" class="hide-methods failed suite-Rest_assured_api_Suite"> (hide)</a> <!-- hide-methods failed suite-Rest_assured_api_Suite -->
+                      <a href="#" panel-name="suite-Rest_assured_api_Suite" class="show-methods failed suite-Rest_assured_api_Suite"> (show)</a> <!-- show-methods failed suite-Rest_assured_api_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Rest_assured_api_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_assured_api_Suite" title="com.api.identitymanagement.AuthenticateUser" class="method navigator-link" hash-for-method="authenticateUserwithValidEmail">authenticateUserwithValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_assured_api_Suite" title="com.api.identitymanagement.AuthorizeUser" class="method navigator-link" hash-for-method="authorizeUser">authorizeUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_assured_api_Suite" title="com.api.identitymanagement.LogoutUser" class="method navigator-link" hash-for-method="logoutUser">logoutUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_assured_api_Suite" title="com.api.createAccount.OTPVerification" class="method navigator-link" hash-for-method="otpVerification">otpVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Rest_assured_api_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Rest_assured_api_Suite" class="hide-methods passed suite-Rest_assured_api_Suite"> (hide)</a> <!-- hide-methods passed suite-Rest_assured_api_Suite -->
+                      <a href="#" panel-name="suite-Rest_assured_api_Suite" class="show-methods passed suite-Rest_assured_api_Suite"> (show)</a> <!-- show-methods passed suite-Rest_assured_api_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Rest_assured_api_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_assured_api_Suite" title="com.api.createAccount.UserRegisterwithExistingUser" class="method navigator-link" hash-for-method="existingUserRegister">existingUserRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_assured_api_Suite" title="com.api.createAccount.UserRegisteration" class="method navigator-link" hash-for-method="newUserRegister">newUserRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Rest_assured_api_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Rest_assured_api_Suite" class="panel Rest_assured_api_Suite">
+          <div class="suite-Rest_assured_api_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.createAccount.OTPVerification</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="otpVerification">
+                  </a> <!-- otpVerification -->
+                  <span class="method-name">otpVerification</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [500]
+	at com.api.createAccount.OTPVerification.otpVerification(OTPVerification.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(User Registeration with Valid Request)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_assured_api_Suite-class-failed -->
+          <div class="suite-Rest_assured_api_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.identitymanagement.LogoutUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutUser">
+                  </a> <!-- logoutUser -->
+                  <span class="method-name">logoutUser</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: cookies cannot be null
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.cookies(RequestSpecificationImpl.groovy:893)
+	at com.api.identitymanagement.LogoutUser.logoutUser(LogoutUser.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_assured_api_Suite-class-failed -->
+          <div class="suite-Rest_assured_api_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.identitymanagement.AuthorizeUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="authorizeUser">
+                  </a> <!-- authorizeUser -->
+                  <span class="method-name">authorizeUser</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: cookies cannot be null
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.cookies(RequestSpecificationImpl.groovy:893)
+	at com.api.identitymanagement.AuthorizeUser.authorizeUser(AuthorizeUser.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_assured_api_Suite-class-failed -->
+          <div class="suite-Rest_assured_api_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.identitymanagement.AuthenticateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="authenticateUserwithValidEmail">
+                  </a> <!-- authenticateUserwithValidEmail -->
+                  <span class="method-name">authenticateUserwithValidEmail</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at com.api.identitymanagement.AuthenticateUser.authenticateUserwithValidEmail(AuthenticateUser.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_assured_api_Suite-class-failed -->
+          <div class="suite-Rest_assured_api_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.createAccount.UserRegisterwithExistingUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="existingUserRegister">
+                  </a> <!-- existingUserRegister -->
+                  <span class="method-name">existingUserRegister</span>
+                  <em>
+(User Registeration Invalid Username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_assured_api_Suite-class-passed -->
+          <div class="suite-Rest_assured_api_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.createAccount.UserRegisteration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newUserRegister">
+                  </a> <!-- newUserRegister -->
+                  <span class="method-name">newUserRegister</span>
+                  <em>
+(User Registeration with Valid Request)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_assured_api_Suite-class-passed -->
+        </div> <!-- panel Rest_assured_api_Suite -->
+        <div panel-name="test-xml-Rest_assured_api_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Invcuser_106\Desktop\Maven Projects\restassured-api-automation-framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Rest assured api Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.api.listeners.ExtentReportListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.api.listeners.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Rest assured api TEST&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.api.createAccount&quot;/&gt;
+      &lt;package name=&quot;com.api.identitymanagement&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.createAccount.OTPVerification&quot;/&gt;
+      &lt;class name=&quot;com.api.createAccount.UserRegisteration&quot;/&gt;
+      &lt;class name=&quot;com.api.createAccount.UserRegisterwithExistingUser&quot;/&gt;
+      &lt;class name=&quot;com.api.identitymanagement.AuthenticateUser&quot;/&gt;
+      &lt;class name=&quot;com.api.identitymanagement.AuthorizeUser&quot;/&gt;
+      &lt;class name=&quot;com.api.identitymanagement.LogoutUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Rest assured api TEST --&gt;
+&lt;/suite&gt; &lt;!-- Rest assured api Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Rest_assured_api_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Rest assured api Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Rest assured api TEST (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Rest_assured_api_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Rest assured api Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Rest_assured_api_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Rest assured api Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Rest_assured_api_Suite');
+function tableData_Rest_assured_api_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'newUserRegister')
+data.setCell(0, 2, 'com.api.createAccount.UserRegisteration')
+data.setCell(0, 3, 5446);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'otpVerification')
+data.setCell(1, 2, 'com.api.createAccount.OTPVerification')
+data.setCell(1, 3, 3867);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'authenticateUserwithValidEmail')
+data.setCell(2, 2, 'com.api.identitymanagement.AuthenticateUser')
+data.setCell(2, 3, 925);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'existingUserRegister')
+data.setCell(3, 2, 'com.api.createAccount.UserRegisterwithExistingUser')
+data.setCell(3, 3, 769);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'authorizeUser')
+data.setCell(4, 2, 'com.api.identitymanagement.AuthorizeUser')
+data.setCell(4, 3, 11);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logoutUser')
+data.setCell(5, 2, 'com.api.identitymanagement.LogoutUser')
+data.setCell(5, 3, 1);
+window.suiteTableData['Rest_assured_api_Suite']= { tableData: data, tableDiv: 'times-div-Rest_assured_api_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-Rest_assured_api_Suite">
+              </div> <!-- times-div-Rest_assured_api_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Rest_assured_api_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Rest assured api Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Rest_assured_api_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.api.createAccount.UserRegisterwithExistingUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialSetUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.api.identitymanagement.LogoutUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialSetUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.api.createAccount.UserRegisteration</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialSetUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.api.identitymanagement.AuthorizeUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialSetUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.api.identitymanagement.AuthenticateUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialSetUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Rest_assured_api_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.createAccount.OTPVerification</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initialSetUp(stage)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">349 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.createAccount.UserRegisteration</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1397 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.createAccount.UserRegisterwithExistingUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1398 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.identitymanagement.AuthenticateUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1400 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.identitymanagement.AuthorizeUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1401 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.identitymanagement.LogoutUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1435 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.createAccount.OTPVerification</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">otpVerification</span>
+                <span class="method-start">1478 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.identitymanagement.AuthenticateUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">authenticateUserwithValidEmail</span>
+                <span class="method-start">5356 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.createAccount.UserRegisteration</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">newUserRegister</span>
+                <span class="method-start">6287 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.identitymanagement.AuthorizeUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">authorizeUser</span>
+                <span class="method-start">11738 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.createAccount.UserRegisterwithExistingUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">existingUserRegister</span>
+                <span class="method-start">11766 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.identitymanagement.LogoutUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logoutUser</span>
+                <span class="method-start">12537 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

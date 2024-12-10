@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest assured api Suite">
+    <listeners>
+        <listener class-name="com.api.listeners.ExtentReportListener"/>
+        <listener class-name="com.api.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test thread-count="1" name="Rest assured api TEST">
+		 <packages>
+            <package name="com.api.createAccount"/>
+            <package name="com.api.identitymanagement"/>
+        </packages>
+    </test>
+</suite>
